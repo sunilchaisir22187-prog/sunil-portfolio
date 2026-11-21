@@ -1,0 +1,97 @@
+{
+  "portrait-seated.webp": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/portrait-seated-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/portrait-seated-800.webp"
+      },
+      {
+        "width": 960,
+        "src": "/images/portrait-seated.webp"
+      }
+    ],
+    "sourcePage": 1
+  },
+  "presentation.webp": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/presentation-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/presentation-800.webp"
+      },
+      {
+        "width": 1200,
+        "src": "/images/presentation.webp"
+      }
+    ],
+    "sourcePage": 5
+  },
+  "smart-sunil.webp": {
+    "width": 1170,
+    "height": 1170,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/smart-sunil-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/smart-sunil-800.webp"
+      },
+      {
+        "width": 1170,
+        "src": "/images/smart-sunil.webp"
+      }
+    ],
+    "sourcePage": 4
+  },
+  "community-teaching.webp": {
+    "width": 1200,
+    "height": 1600,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/community-teaching-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/community-teaching-800.webp"
+      },
+      {
+        "width": 1200,
+        "src": "/images/community-teaching.webp"
+      }
+    ],
+    "sourcePage": 10
+  },
+  "friends.webp": {
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "width": 480,
+        "src": "/images/friends-480.webp"
+      },
+      {
+        "width": 800,
+        "src": "/images/friends-800.webp"
+      },
+      {
+        "width": 1600,
+        "src": "/images/friends.webp"
+      }
+    ],
+    "sourcePage": 3
+  }
+}
