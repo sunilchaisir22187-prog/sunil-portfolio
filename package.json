@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "build": "next build && node scripts/package-source.mjs",
-    "typecheck": "tsc --noEmit"
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "package:source": "node scripts/package-source.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",

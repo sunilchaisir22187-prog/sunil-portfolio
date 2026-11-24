@@ -1,0 +1,21 @@
+.page{min-height:100vh;padding:clamp(1.5rem,5vw,5rem);background:var(--obsidian);color:var(--ivory);max-width:1600px;margin:auto}
+.back{display:inline-block;font-size:.875rem;color:var(--silver);border-bottom:1px solid currentColor;padding:.4rem 0}
+.label{font-family:var(--font-mono),monospace;text-transform:uppercase;letter-spacing:.05em;color:var(--mint);font-size:.75rem;margin:3rem 0 1.2rem}
+.page h1{font-size:clamp(3rem,6.2vw,6rem);letter-spacing:-.055em;line-height:1.02}
+.intro{font-size:1.125rem;max-width:43rem;margin-top:1.8rem;line-height:1.7}
+.downloadAll{display:inline-flex;align-items:center;justify-content:center;background:var(--red);color:var(--obsidian);font-size:1rem;font-weight:500;padding:1rem 1.5rem;min-height:48px;margin-top:2rem;transition:background .2s}
+.downloadAll:hover{background:var(--mint)}
+.help{max-width:45rem;color:var(--silver);font-size:.875rem;line-height:1.8;margin-top:1rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;margin-top:3rem}
+.card{border-top:1px solid #f2ede440;padding-top:1.2rem;min-width:0}
+.preview{aspect-ratio:36/25;background:#1c1e24;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.preview img{height:100%;width:100%;object-fit:contain}
+.card h2{font-size:1.6rem;line-height:1.2;margin-top:1.3rem;letter-spacing:-.035em}
+.card>p{font-size:1rem;line-height:1.65;margin-top:.7rem;color:var(--silver)}
+.actions{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.2rem}
+.actions a{font-size:.875rem;padding:.65rem 1rem;min-height:44px;border:1px solid #a9b0b866;display:inline-flex;align-items:center}
+.actions a:first-child{background:var(--ivory);color:var(--obsidian);border-color:var(--ivory)}
+.actions a:hover{border-color:var(--mint)}
+.note{border-top:1px solid #f2ede440;font-size:1rem;line-height:1.7;padding-top:2rem;margin-top:3rem;color:var(--silver)}
+@media(max-width:800px){.grid{grid-template-columns:1fr;gap:2rem}.intro{font-size:1rem}.downloadAll{width:100%;font-size:.9375rem;padding:1rem}.page h1{font-size:3.2rem}}
+@media(prefers-reduced-motion:reduce){.downloadAll{transition:none}}
